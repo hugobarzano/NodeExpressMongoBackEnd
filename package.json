@@ -1,0 +1,27 @@
+{
+  "name": "NodeExpressMongoBackEnd",
+  "version": "0.0.1",
+  "description": "General purpose, js Training ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"No Validation plan defined\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugobarzano/NodeExpressMongoBackEnd.git"
+  },
+  "author": "CHBC",
+  "license": "GNU GENERAL PUBLIC LICENSE 3",
+  "bugs": {
+    "url": "https://github.com/hugobarzano/NodeExpressMongoBackEnd/issues"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "express": "~4.16.2",
+    "mongoose": "~5.0.0-rc0"
+  },
+  "devDependencies": {
+    "nodemon": "~1.12.1"
+  }
+}
